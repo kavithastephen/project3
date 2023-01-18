@@ -9,7 +9,6 @@ int main()
   a = a - b;   
   b = a + b;
   a = b - a;
-  printf("After swapping, a = %.2lf\n", a);
-  printf("After swapping, b = %.2lf", b);
+  printf("After swapping, a = %.2lf b = %.2lf", a,b);
   return 0;
 }
